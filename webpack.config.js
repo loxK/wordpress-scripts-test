@@ -2,7 +2,7 @@ import wpWebpackConfig from '@wordpress/scripts/config/webpack.config.js'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 import {resolve} from "path";
 
-const webpackConfig = {
+export default {
     ...wpWebpackConfig,
     entry: './dir/file.js',
     output: {
@@ -14,7 +14,3 @@ const webpackConfig = {
 
     ]
 }
-
-console.log(webpackConfig)
-
-export default webpackConfig
