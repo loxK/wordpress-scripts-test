@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gecka/test-slider",
+	"title": "Gecka - Test Slider",
+	"category": "common",
+	"description": "test.",
+	"keywords": [ "slider", "carousel" ],
+  "editorScript": "file:index.js",
+  "editorStyle": "file:index.css",
+  "style": "file:style-index.css",
+  "viewScript": "flexslider"
+}

@@ -1,4 +1,4 @@
-Build any script scripts using @wordpress/scripts so that you get the assets.php dependencies file and wordpress libraries not included in the bundle.
+Build using @wordpress/scripts with a dependency including fonts.
 
 ```shell
 # npm i
